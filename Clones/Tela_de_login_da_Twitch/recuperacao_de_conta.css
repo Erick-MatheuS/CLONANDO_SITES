@@ -1,0 +1,41 @@
+:root{
+
+    --background-header : #18181b;
+
+    --background-body: #0e0e10;
+
+    --background-btn: #9147ff;
+
+    --border-input :#bf94ff;
+
+    --color-link: #bf94ff;
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--background-body);
+    color: #fff;
+}
+
+header{
+    background-color: var(--background-header);
+    padding: 18px 0px;
+}
+
+header .img{
+    width: 20px;
+    height: 20px;
+    padding-left: 28px;
+}
+
+
+
+
+
+
+
+
+

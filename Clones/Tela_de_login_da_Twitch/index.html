@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="./img/twitch-55.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Iniciar sessão - Twitch</title>
 </head>
 <body>
+
+    <main class="container">
+        <!-- Seção de título -->
+        <section class="s1">
+            <i class="fab fa-twitch"></i>
+            <h1 class="tittle">Iniciar sessão na Twitch</h1>
+        </section>
+        
+        <!-- Formulário de login -->
+        <form method="get">
+
+            <!-- Campo de nome de utilizador -->
+            <label for="nome">Nome de utilizador</label>
+            <input type="text" id="nome" name="nome">
+
+            <!-- Campo de palavra-passe -->
+            <label for="senha">Palavra-passe</label>
+            <input type="password" id="senha" name="senha">
+
+            <!-- Link de ajuda para palavra-passe -->
+            <a href="./probelma_ao_iniciar_sessao.html">Problema ao iniciar sessão?</a>
+
+             <!-- Botão de envio -->
+            <button class="btn" type="submit">Iniciar sessão</button>
+
+             <!-- Botão para criar conta -->
+            <button class="btn" type="submit">Não tens uma conta? Inscrever-se</button>
+
+        </form>
+
+    </main>
     
 </body>
 </html>
