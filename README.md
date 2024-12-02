@@ -13,6 +13,6 @@ JavaScript: Interatividade e funcionalidades dinâmicas.
 
 ## Objetivos 
 
-Melhorar minhas habilidades com front-end.
+Melhorar minhas habilidades com _front-end._
 Experimentar diferentes abordagens de design e estrutura.
 Criar clones simples e funcionais de sites populares para praticar minhas habilidades.
