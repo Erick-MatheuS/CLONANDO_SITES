@@ -6,9 +6,9 @@ Cada clone é um projeto independente, com foco na replicação da aparência e 
 
 ## Tecnologias Utilizadas
 
-HTML: Estrutura e conteúdo da página.
-CSS: Estilização e layout.
-JavaScript: Interatividade e funcionalidades dinâmicas.
+* HTML: Estrutura e conteúdo da página.
+* CSS: Estilização e layout.
+* JavaScript: Interatividade e funcionalidades dinâmicas.
 
 
 ## Objetivos 
