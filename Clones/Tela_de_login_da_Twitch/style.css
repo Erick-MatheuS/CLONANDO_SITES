@@ -42,6 +42,12 @@ html, body{
     font-size: 1.5rem;
 }
 
+.fab.fa-twitch {
+    font-size: 47px;
+    color: #6441a5;
+    margin-right: 13px;
+}
+
 form{
     display: block;
     width: 90%;
@@ -63,8 +69,9 @@ form > input{
     border-bottom: transparent;
     width: 100%;
     margin-bottom: 35px;
-    border: #bf94ff 1px solid;
+    border: #fff 1px solid;
     padding: 10px;
+    background-color: #18181b;
 }
 
 form > input:focus{
@@ -72,6 +79,7 @@ form > input:focus{
     border-radius: 6px; 
     border: #bf94ff 3px solid;
     padding: 8px;
+    color: aliceblue;
 }
 
 form > a{
@@ -115,9 +123,4 @@ form > .btn:nth-of-type(2):hover{
     background-color: #2c2b2b;
 }
 
-.fab.fa-twitch {
-    font-size: 47px;
-    color: #6441a5;
-    margin-right: 13px;
-}
 
