@@ -32,6 +32,151 @@ header .img{
     padding-left: 28px;
 }
 
+.container{
+    display: flex;
+    flex-flow: wrap column;
+    width: 760px;
+    padding: 70px;
+    margin: auto;
+    color: #efeff1;
+    word-spacing: -7px;
+}
+
+.text-select, .form{
+    /* background-color: grey; */
+}
+
+.text-select > .tittle{
+    font-size: 1.5rem;
+    margin-bottom: -20px;
+}
+
+.text-select > .sub-tittle{
+    font-size: 1.2rem;
+}
+
+.form{
+
+}
+
+.form > .insert{
+    font-size: 0.86rem; 
+    display: block;   
+    margin: 0px auto 18px;
+}
+
+#country_code, .input_email{
+    padding: 2px;
+    border: 1px solid #919191;
+    border-radius: 3px;
+    background-color: #18181b;
+    color: #fff;
+}
+
+#country_code:focus{
+    outline: none; 
+    border-radius: 6px; 
+    border: #bf94ff 3px solid;
+    padding: 8px;
+}
+
+.input_email:focus{
+    outline: none; 
+    border-radius: 6px; 
+    border: #bf94ff 3px solid;
+    padding: 8px;
+    background-color: #0e0e10;
+}
+
+.btns{
+    display: flex;
+    gap: 0px 12px;
+    height: 52px;
+}
+
+#country_code{
+    flex-grow: 1;
+}
+
+.input_email{
+    flex-grow: 8;
+}
+
+.form_text{
+    font-weight:400;
+    font-family: serif;
+    word-spacing: normal;
+}
+
+.btn-group{
+    /* background-color: red; */
+    padding: 45px 0px;
+}
+
+.btn-group > .btn{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 12px 0px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-group > .primary{
+    background-color: #9147ff;
+    transition: ease 0.6s;
+}
+
+.btn-group .primary:hover{
+    background-color: #bf94ff;
+    transition: ease 0.6s;
+}
+
+.divider{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 40px 0px;
+}
+
+.divider span{
+    flex: 1; 
+    border: none; 
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.divider hr {
+    width: 50%; 
+    border: none; 
+    border-top: 2px solid #36363d; 
+    margin: 0; 
+}
+
+.btn-group > .secundary{
+    background-color: #28282e;
+}
+
+.fa-regular{
+    margin-right: 4px;
+}
+
+.btn-group .secundary:hover{
+    background-color: #36363d;
+    transition: ease 0.6s;
+    
+}
+
+.btn-group, .support-link{
+    text-decoration: none;
+    color: #bf94ff;
+}
+
+.btn-group, .support-link:hover{
+     text-decoration: underline;
+}
 
 
 
