@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Inscrever-se</title>
 </head>
 <body>
 
@@ -16,7 +16,7 @@
         </div>
 
         <form action="" method="post">
-
+=
             <!-- ID Nome e Senha -->
             <div id="name_password">
 
@@ -31,58 +31,52 @@
             <div id="data">
                 
                 <label for="data">Data de nascimento</label>
-                <section class="section day">
-                    <option value="01">01</option>
-                    <option value="02">02</option>
-                    <option value="03"></option>
-                    <option value="04"></option>
-                    <option value="05"></option>
-                    <option value="06"></option>
-                    <option value="07"></option>
-                    <option value="08"></option>
-                    <option value="09"></option>
-                    <option value="10"></option>
-                    <option value="11"></option>
-                    <option value="12"></option>
-                    <option value="13"></option>
-                    <option value="14"></option>
-                    <option value="15"></option>
-                    <option value="16"></option>
-                    <option value="17"></option>
-                    <option value="18"></option>
-                    <option value="19"></option>
-                    <option value="20"></option>
-                    <option value="21"></option>
-                    <option value="22"></option>
-                    <option value="23"></option>
-                    <option value="24"></option>
-                    <option value="25"></option>
-                    <option value="26"></option>
-                    <option value="27"></option>
-                    <option value="28"></option>
-                    <option value="29"></option>
-                    <option value="30"></option>
-                </section>
+                <select id="dia" name="dia">
+                    <option value="" disabled selected>Dia</option>
+                </select>
 
-                <label for="ano">Ano:</label>
-                    <select id="ano" name="ano">
-                        <option value="2020">2020</option>
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <!-- Adicione mais anos conforme necessário -->
-                    </select>
+                <select id="mes" name="mes">
+                    <option value="" disabled selected>Mês</option>
+                </select>
 
-
-
+                <select id="ano" name="ano">
+                    <option value="" disabled selected>Ano</option>
+                </select>
 
             </div>
+
+            <div id="telephone">
+                
+                <label for="telephone"></label>
+                <select id="ci" name="ci">
+                    <option value="" disabled selected>Brasil +55</option>
+                    <input type="tel" name="tel" id="phone">
+                </select>
+
+            </div>
+
+            <button type="submit">Utilizar antes e-mail</button>
+
+            <div class="texts">
+                <p>A Twitch pode utilizar o teu número de telefone para te ligar ou enviar
+                     mensagens de texto com informação sobre a tua conta.
+                </p>
+
+                <p>Ao clicares em inscrever-se, estás a concordar com os <a href="#">Termos de Serviço</a>
+                    da Twitch e a reconhecer a aplicação do nosso <a href="#">Aviso de Previdencia</a>.</p>                
+            </div>
+
+            <button type="submit">Inscrever</button>
+            <button type="submit">Tens uma conta? Iniciar sessão</button>
+
+            
 
 
         </form>
 
     </main>
+
+    <script src="./script.js"></script>
     
 </body>
 </html>
