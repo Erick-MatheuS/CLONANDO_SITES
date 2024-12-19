@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Inscrever-se</title>
 </head>
@@ -11,19 +12,19 @@
     <main class="container">
 
         <div class="main_content">
-            <i class="fab fa-twitch"></i>
+            <i class="fa-brands fa-twitch" style="color: #B197FC;"></i>
             <h1>Junta-te ja à Twitch</h1>
         </div>
 
         <form action="" method="post">
-=
+            
             <!-- ID Nome e Senha -->
             <div id="name_password">
 
                 <label for="name">Nome de utilizador</label>
                 <input type="text" name="nome" id="name">
 
-                <label for="password">Password</label>
+                <label class="space_password" for="password">Password</label>
                 <input type="password" name="senha" id="password">
 
             </div>
@@ -31,31 +32,31 @@
             <div id="data">
                 
                 <label for="data">Data de nascimento</label>
-                <select id="dia" name="dia">
-                    <option value="" disabled selected>Dia</option>
+                <select class="height" id="dia" name="dia">
+                    <option  value="" disabled selected>Dia</option>
                 </select>
 
-                <select id="mes" name="mes">
-                    <option value="" disabled selected>Mês</option>
+                <select class="height"id="mes" name="mes">
+                    <option  value="" disabled selected>Mês</option>
                 </select>
 
-                <select id="ano" name="ano">
-                    <option value="" disabled selected>Ano</option>
+                <select class="height"id="ano" name="ano">
+                    <option  value="" disabled selected>Ano</option>
                 </select>
 
             </div>
 
             <div id="telephone">
-                
-                <label for="telephone"></label>
-                <select id="ci" name="ci">
-                    <option value="" disabled selected>Brasil +55</option>
-                    <input type="tel" name="tel" id="phone">
-                </select>
-
+                <label for="phone">Número de Telefone</label>
+                <div class="phone-row">
+                    <select id="section_phone" name="ci">
+                        <option id="ddd" value="" disabled selected>Brasil +55</option>
+                    </select>
+                    <input type="tel" name="tel" id="phone" placeholder="Digite seu telefone">
+                </div>
+                <button class="btn-email" type="submit">Utilizar antes e-mail</button>
             </div>
 
-            <button type="submit">Utilizar antes e-mail</button>
 
             <div class="texts">
                 <p>A Twitch pode utilizar o teu número de telefone para te ligar ou enviar
@@ -68,9 +69,6 @@
 
             <button type="submit">Inscrever</button>
             <button type="submit">Tens uma conta? Iniciar sessão</button>
-
-            
-
 
         </form>
 
