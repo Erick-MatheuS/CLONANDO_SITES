@@ -1,38 +1,37 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     background-color: #0e0e10;
-
     font-family: sans-serif;
     color: #fff;
 }
 
-.container{
+.container {
     background-color: #18181b;
     width: 700px;
     margin: 0px auto;
     padding: 30px 65px;
 }
 
-.main_content{
+.main_content {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.main_content i{
+.main_content i {
     float: left;
     font-size: 52px;
     margin-right: 20px;
 }
 
-.main_content h1{
+.main_content h1 {
     font-size: 1.4rem;
 }
 
-form{
+form {
     display: flex;
     align-items: flex-start;
     flex-flow: wrap column;
@@ -40,28 +39,30 @@ form{
     margin-top: 27px;
 }
 
-#name_password label, #data label, #telephone label{
+#name_password label,
+#data label,
+#telephone label {
     font-size: 0.9rem;
     font-weight: 600;
     float: left;
-    display:inline;
+    display: inline;
     width: 100%;
     margin-bottom: 5px;
 }
 
-#name, #password, #phone{
+#name, #password, #phone {
     text-indent: 9px;
 }
 
 #name, #password, #phone:not(:focus) {
-    color: white; 
+    color: white;
 }
 
-#name .space_password , input{
+#name .space_password, input {
     margin-bottom: 20px;
 }
 
-#name_password input{
+#name_password input {
     width: 100%;
     height: 42px;
     margin-top: 8px;
@@ -70,24 +71,24 @@ form{
     background-color: #18181b;
 }
 
-#name_password > .space_password{
+#name_password > .space_password {
     margin-top: 33px;
 }
 
-    /* Data de Nascimento */
+/* Data de Nascimento */
 
 form > #data{
     display: flex;
     flex-flow: wrap row;
-    width: 100%;    
-    margin: 37px 0px 47px;   
+    width: 100%;
+    margin: 37px 0px 47px;
 }
 
-#data label{
+#data label {
     margin-bottom: 13px;
 }
 
-#data > select , #telephone > select{
+#data > select, #telephone > select {
     background-color: #18181b;
     color: #fff;
     border: 1px solid #cccccc;
@@ -95,53 +96,54 @@ form > #data{
     background-color: #18181b;
 }
 
-#data >.height{
+#data >.height {
     height: 50px;
     font-size: 21px;
     padding-left: 7px;
 }
 
-#dia{
+#dia {
     flex-grow: 1;
     margin-right: 15px;
 }
 
-#mes{
+#mes {
     flex-grow: 4;
     margin-right: 15px;
 }
 
-#ano{
+#ano {
     flex-grow: 1;
 }
 
-#name_password > input:focus{
-    outline: none; 
-    border-radius: 6px; 
+#name_password > input:focus, #data > select:focus,
+.phone-row > #phone:focus {
+    outline: none;
+    border-radius: 6px;
     border: #bf94ff 3px solid;
     color: #f0f8ff;
 }
 
-#name_passwprd > #input{
+#name_passwprd>#input {
     padding-left: 27px;
 }
 
-    /* Número de Telefone */
+/* Número de Telefone */
 
 #telephone {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+    gap: 10px;
 }
 
 .phone-row {
     display: flex;
-    gap: 10px; 
+    gap: 10px;
     height: 44px;
 }
 
-#section_phone{
+#section_phone {
     flex-grow: 2.3;
     background-color: #18181b;
     border: 1px solid #fff;
@@ -150,20 +152,20 @@ form > #data{
     padding-left: 7px;
 }
 
-.phone-row > #phone{
+.phone-row>#phone {
     flex-grow: 2;
     background-color: #18181b;
     border: 1px solid #fff;
     height: 40px;
     border-radius: 4px;
     color: white;
-} 
+}
 
 .btn-email {
-    align-self: flex-start; 
+    align-self: flex-start;
     margin-top: 9px;
-    padding: 9px 14px; 
-    font-family:'Franklin Gothic Medium';
+    padding: 9px 14px;
+    font-family: 'Franklin Gothic Medium';
     font-weight: 600;
     color: #bf94ff;
     background-color: #18181b;
@@ -171,38 +173,38 @@ form > #data{
     cursor: pointer;
 }
 
-.btn-email:hover{
+.btn-email:hover {
     background-color: #7e7e7e;
     color: #fff;
     border-radius: 4px;
 }
 
-    /* Texto */
+/* Texto */
 
-.texts , p{
+.texts, p {
     font-size: 0.88rem;
     font-weight: 300;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.texts > p:first-child{
+.texts > p:first-child {
     margin-bottom: 32px;
 }
 
-.texts > p >.link{
+.texts > p >.link {
     color: #bf94ff;
 }
 
 /* Ultimos Botões */
 
-.last_btns{
+.last_btns {
     display: flex;
     align-self: flex-start;
     flex-flow: wrap column;
     width: 100%;
 }
 
-.btn{
+.btn {
     border: none;
     border-radius: 4px;
     padding: 12px 0px;
@@ -210,20 +212,20 @@ form > #data{
     font-weight: 600;
 }
 
-.btn1{
+.btn1 {
     background-color: #232328;
     color: #63636a;
-    cursor:not-allowed;
+    cursor: not-allowed;
 }
 
-.btn2{
+.btn2 {
     background-color: #18181b;
     color: #bf94ff;
     font-weight: 600;
     cursor: pointer;
 }
 
-.btn2:hover{
+.btn2:hover {
     background-color: #7e7e7e;
     color: #fff;
 }
