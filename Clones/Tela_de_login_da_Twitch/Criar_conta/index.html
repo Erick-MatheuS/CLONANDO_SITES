@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../x_img/twitch-55.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Inscrever-se</title>
 </head>
+
 <body>
+
+    <!-- Container -->
 
     <main class="container">
 
@@ -17,7 +22,7 @@
         </div>
 
         <form action="" method="post">
-            
+
             <!-- ID Nome e Senha -->
             <div id="name_password">
 
@@ -29,28 +34,32 @@
 
             </div>
 
+            <!-- Data de Nascimento -->
+
             <div id="data">
-                
+
                 <label for="data">Data de nascimento</label>
                 <select class="height" id="dia" name="dia">
                     <option disabled selected>Dia</option>
                 </select>
 
-                <select class="height"id="mes" name="mes">
+                <select class="height" id="mes" name="mes">
                     <option disabled selected>Mês</option>
                 </select>
 
-                <select class="height"id="ano" name="ano">
+                <select class="height" id="ano" name="ano">
                     <option disabled selected>Ano</option>
                 </select>
 
             </div>
 
+            <!-- Número de Telefone -->
+
             <div id="telephone">
                 <label for="phone">Número de Telefone</label>
                 <div class="phone-row">
                     <select id="section_phone" name="ci">
-                        <option id="ddd" disabled selected>Brasil +55</option>
+                        <option id="ddd" selected disabled>Brasil +55</option>
                     </select>
                     <input type="tel" name="tel" id="phone">
                 </div>
@@ -59,11 +68,11 @@
 
             <div class="texts">
                 <p>A Twitch pode utilizar o teu número de telefone para te ligar ou enviar
-                     mensagens de texto com informação sobre a tua conta.
+                    mensagens de texto com informação sobre a tua conta.
                 </p>
 
                 <p>Ao clicares em inscrever-se, estás a concordar com os <a class="link" href="#">Termos de Serviço</a>
-                    da Twitch e a reconhecer a aplicação do nosso <a class="link" href="#">Aviso de Previdencia</a>.</p>                
+                    da Twitch e a reconhecer a aplicação do nosso <a class="link" href="#">Aviso de Previdencia</a>.</p>
             </div>
 
             <div class="last_btns">
@@ -76,6 +85,6 @@
     </main>
 
     <script src="./script.js"></script>
-    
+
 </body>
 </html>
