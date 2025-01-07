@@ -1,4 +1,6 @@
 
+// Código copiado da internet;
+
 // Dia
 const selectDia = document.getElementById("dia");
 
